@@ -1,0 +1,23 @@
+{
+  "name": "softinvest/pgwrap",
+  "description": "DataBase Wrapper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "appsinvest",
+      "email": "appscenter@proton.me"
+    }
+  ],
+  "keywords": [
+    "database wrapper"
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SoftInvest\\Helpers\\": "src",
+      "SoftInvest\\Console\\Commands\\": "src\\Commands"
+    }
+  }
+}
